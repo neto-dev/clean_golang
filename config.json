@@ -1,0 +1,12 @@
+{
+    "debug": true,
+    "server": {
+      "address": ":9090"
+    },
+    "database":{
+
+    },
+    "context":{
+      "timeout":2
+    }
+  }
