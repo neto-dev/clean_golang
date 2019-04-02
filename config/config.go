@@ -1,5 +1,4 @@
 /*
- * Project: dhq_server
  * Developer: Ernesto Valenzuela Vargas.
  * Created by: netodev
  * Contact: neto.dev@protonmail.com

@@ -38,7 +38,7 @@ We declare the structure Entitys which will be an array of Entity
 type Entitys []Entity
 
 /*
-Declaramos la variable entitys la cual sera un objeto de Entitys y a su vez le asicnamos todos los valores correspondientes
+Declaramos la variable entitys la cual sera un objeto de Entitys y a su vez le asignamos todos los valores correspondientes
 
 We declare the variable entitys which will be an object of Entitys and at the same time we asicnamos all the corresponding values.
 */

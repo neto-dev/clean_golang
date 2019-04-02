@@ -44,11 +44,18 @@ func InitMysqlDB(conf config.Config) *gorm.DB {
 
 		We declared the variable db which would store the instance to the database and the err variable which would store
 		the error in case you suggest any
+
+
 	*/
+
+	log.Printf("Dialect: ", configuration.DataBase.User)
+
 	db, err := gorm.Open(configuration.DataBase.Dialect, configuration.DataBase.User+":"+
 		configuration.DataBase.Pass+"@tcp("+configuration.DataBase.
 		DbHost+")/?charset=utf8&parseTime=True&loc=Local")
 
+
+	//db, err := gorm.Open("mysql", "root:stefaanhelen@tcp(localhost)/?charset=utf8&parseTime=True&loc=Local")
 	/*
 		Creamos la base de datos en caso de que no exista
 
