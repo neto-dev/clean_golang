@@ -1,8 +1,8 @@
 # Implementación basica de Clean Architecture + Go lang + Mysql + Echo
 
-Nota: En el proximo release implementare los unit test utilizando Moks y entorno de desarrollo Test. Fecha aproximada 15/abr/2019
+Nota: En el próximo release implementare los unit test utilizando Moks y entorno de desarrollo Test. Fecha aproximada 15/abr/2019
 
-Ejemplo basico de la implementacion de clean architecture en un servidor go + echo.
+Ejemplo basico de la implementation de clean architecture en un servidor go + echo.
 
 El ejemplo cuenta con archivos de configuración para bases de datos basado en el entorno que se este ejecutando.
 
@@ -14,7 +14,7 @@ Tecnologias implementadas:
 - Mysql
 - Echo
 
-El actual ejemplo cuenta con una implementación básica de los métodos **Get/GetByID/Create/Update/Delete**, con un metodo Filters para realizar filtros.
+El actual ejemplo cuenta con una implementación básica de los métodos **Get/GetByID/Create/Update/Delete**, con un método Filters para realizar filtros.
 
 Primero tendrás que clonar el repositorio a tu computadora con el siguiente comando dentro del directorio `$GOPATH/src/github.com/`.
 
@@ -24,11 +24,11 @@ Una vez descargado ingresar a la carpeta.
 
 `cd clean_golang`
 
-Para instalar las diferentes dependencias que se utilizan en el proyecto ejecurar el siguiente comando.
+Para instalar las diferentes dependencias que se utilizan en el proyecto ejecutar el siguiente comando.
 
 `go mod init`
 
-En caso de que arroge el siguiente error.
+En caso de que arrojé el siguiente error.
 
 `go: modules disabled inside GOPATH/src by GO111MODULE=auto; see 'go help modules'`
 
@@ -40,7 +40,7 @@ Seguido de:
 
 `go mod init`
 
-Despues ejecutamos:
+Después ejecutamos:
 
 `go mod vendor`
 
@@ -56,7 +56,7 @@ export DATABASE_HOST=''
 export ENVIRONMENT='Development'
 ```
 
-Estas ultimas son las que el sistema utilizara para conectar con la base de datos y para setear el entorno de produccion.
+Estas ultimas son las que el sistema utilizara para conectar con la base de datos y para setear el entorno de producción.
 
 En seguida ejecutamos el comando:
 
@@ -68,7 +68,7 @@ Teniendo una vez esto ya podremos ejecutar el proyecto con el comando.
 
 `npm run main.go`
 
-Y listo las migraciones y toda la configuracion se ejecutara automaticamente al correr el servicio.
+Y listo las migraciones y toda la configuración se ejecutara automáticamente al correr el servicio.
 
 Es una implementación básica con la cual podrán desarrollar sus servidores o para basarse según sea el caso. 
 
